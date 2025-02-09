@@ -27,7 +27,7 @@ function cheakWin(){
         if(v0 != "" && v0 === v1 && v0 === v2){
                 isGameOver = true;
                 document.querySelector('#results').innerHTML = turn + " Win";
-                document.querySelector('#play-Again').style.display = "inline"
+                document.querySelector('#play-again').style.display = "inline"
 
                 for(j = 0; j<3; j++){
                      boxes[winConditions[i][j]].style.backgroundColor = "#08D9D6"
